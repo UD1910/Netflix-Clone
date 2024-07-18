@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Noto Sans", sans-serif;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+.main{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    background-size: cover;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(images/header-image.png);
+}
+.navbar{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 155px;
+    
+}
+.logo img{
+    width: 160px;
+    /* height: 100px; */
+}
+.navbtn{
+    display: flex;
+    padding-right: 20px;
+}
+#english{
+    width: 110px;
+    height: 37px;
+    font-size: 20px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right:30px ;
+    border: 0.3px solid white;
+    border-radius: 5px;
+    background-color: transparent;
+    color: white;
+}
+#english i{
+    color: white;
+}
+#sign{
+    width: 80px;
+    height: 20px;
+    height: auto;
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: 550;
+}
+.content{
+    width: 100%;
+    height: auto;
+    color: white;
+    text-align: center;
+    padding-top: 90px;
+}
+.content h1{
+    font-size: 50px;
+    font-weight: 900;
+}
+.content h3{
+    font-size: 25px;
+    padding: 15px;
+    font-weight:normal;
+}
+.content h4{
+    font-size: 20px;
+    padding: 12px;
+    font-weight:normal;
+}
+
+.mail{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mail input{
+    background-color: transparent;
+    border: 1px solid white;
+    width: 450px;
+    height: 42px;
+    border-radius: 5px;
+    padding: 10px;
+}
+.mail button{
+    background-color: red;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    width: 120px;
+    height: 42px;
+    margin-left: 10px;
+
+}
+.line{
+    width: 100%;
+    border: 5px solid rgb(69, 66, 66);
+    margin-top: 50px;
+}
+.middle{
+    background-color: black;
+    width: 100%;
+    min-height: inherit;
+    color: white;
+}
+.tv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+.tvtext{
+    width: 50%;
+    padding-left: 120px;
+}
+.tvtext h1{
+    font-size: 50px;
+    font-weight: 1000;
+}
+.tvtext h3{
+    padding-top: 15px;
+    font-size: 25px;
+    font-weight: 500;
+}
+.tvvid{
+    width: 50%;
+    
+}
+.tvvid img{
+    width: 470px;
+    object-position: center;
+    object-fit: cover;
+}
+
+.download{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 100px 10px;
+}
+.downloadvid{
+    width: 50%;
+}
+.downloadvid img{
+    width: 450px;
+    height: auto;
+    margin-left: 120px;
+    margin-top: 90px;
+    object-position: center;
+    object-fit: cover;
+}
+.downloadtext{
+    width: 50%;
+    padding-right: 120px;
+}
+.downloadtext h1{
+    font-size: 50px;
+    font-weight: 1000;
+}
+.downloadtext h3{
+    padding-top: 15px;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+
+.watch{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    margin-top: 60px;
+}
+.watchtext{
+    width: 50%;
+    padding-left: 120px;
+}
+.watchtext h1{
+    font-size: 50px;
+    font-weight: 1000;
+}
+.watchtext h3{
+    padding-top: 15px;
+    font-size: 25px;
+    font-weight: 500;
+}
+.watchvid{
+    width: 50%;
+    
+}
+.watchvid img{
+    width: 470px;
+    object-position: center;
+    object-fit: cover;
+}
+
+.kids{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 10px;
+}
+.kidstext{
+    width: 50%;
+    padding-right: 120px;
+}
+.kidstext h1{
+    font-size: 50px;
+    font-weight: 1000;
+}
+.kidstext h3{
+    padding-top: 15px;
+    font-size: 25px;
+    font-weight: 500;
+}
+.kidsimg{
+    width: 50%;
+}
+.kidsimg img{
+    width: 450px;
+    height: auto;
+    margin-left: 120px;
+    margin-top: 90px;
+    object-position: center;
+    object-fit: cover;
+}
+
+
+.question{
+    width: 100%;
+    min-height: inherit;
+    background-color: black;
+}
+.heading{
+
+}
+.heading h1{
+    color: white;
+    text-align: center;
+    padding: 30px 0px;
+    font-weight: 900;
+    font-size: 50px;
+}
